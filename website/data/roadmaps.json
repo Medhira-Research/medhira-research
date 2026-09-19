@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Computer Basics",
+    "audience": "Absolute beginner",
+    "duration": "1–2 weeks",
+    "description": "Build confidence with computers before jumping into code.",
+    "steps": ["Files, folders, and downloads", "Browsers, search, and online safety", "Typing, shortcuts, and basic troubleshooting", "Install and use beginner-friendly tools"],
+    "first_task": "Create a folder called My Learning and organise five files inside it."
+  },
+  {
+    "title": "Python Foundations",
+    "audience": "Beginner",
+    "duration": "3–5 weeks",
+    "description": "Learn programming fundamentals through small, practical Python exercises.",
+    "steps": ["Variables, data types, and input/output", "Conditions and loops", "Functions, lists, dictionaries, and strings", "Debugging and small command-line projects"],
+    "first_task": "Write a Python program that asks for your name and prints a welcome message."
+  },
+  {
+    "title": "Web Development",
+    "audience": "Beginner",
+    "duration": "4–6 weeks",
+    "description": "Go from a blank file to a responsive personal webpage.",
+    "steps": ["HTML structure and semantic elements", "CSS layout, spacing, and responsive design", "JavaScript basics and DOM interaction", "Build and publish a small website"],
+    "first_task": "Create a one-page profile using only HTML."
+  },
+  {
+    "title": "Git, GitHub & Open Source",
+    "audience": "Beginner",
+    "duration": "1–3 weeks",
+    "description": "Learn how to save, share, document, and collaborate on code.",
+    "steps": ["Repositories, README files, and commits", "Branches, remotes, pull, and push", "Issues, contribution guidelines, and pull requests", "Make a small documentation contribution"],
+    "first_task": "Create a public repository with a README describing what you are learning."
+  },
+  {
+    "title": "Linux & Terminal",
+    "audience": "Beginner",
+    "duration": "2–4 weeks",
+    "description": "Become comfortable navigating and working in a Linux environment.",
+    "steps": ["pwd, ls, cd, mkdir, cp, mv, and rm", "Text files, editors, and command history", "Permissions and package management", "Simple shell scripts and safe workflows"],
+    "first_task": "Create a directory tree for your learning projects using terminal commands."
+  },
+  {
+    "title": "AI & Machine Learning",
+    "audience": "Beginner with Python basics",
+    "duration": "6–10 weeks",
+    "description": "Understand the foundations of data, models, evaluation, and responsible experimentation.",
+    "steps": ["Python, NumPy, pandas, and visualisation", "Basic mathematics and data preparation", "Regression, classification, and model evaluation", "Complete and document a small ML experiment"],
+    "first_task": "Load a small dataset, inspect its columns, and write three observations."
+  },
+  {
+    "title": "Cloud & DevOps",
+    "audience": "Beginner with basic Linux and Git",
+    "duration": "4–8 weeks",
+    "description": "Explore how applications are packaged, tested, deployed, and monitored.",
+    "steps": ["Networking and server basics", "Docker images and containers", "CI/CD concepts and GitHub Actions", "Deploy a small application and document it"],
+    "first_task": "Create a README diagram showing how code moves from a commit to deployment."
+  },
+  {
+    "title": "Research Fundamentals",
+    "audience": "Beginner student researcher",
+    "duration": "3–6 weeks",
+    "description": "Learn to ask focused questions, read papers, run reproducible experiments, and report evidence.",
+    "steps": ["Find and read papers strategically", "Define a research question and baseline", "Track datasets, methods, and experiment settings", "Write limitations, results, and references honestly"],
+    "first_task": "Read one paper and write its problem, method, result, and limitation in four bullets."
+  }
+]
