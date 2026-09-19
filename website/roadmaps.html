@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learning Roadmaps | Medhira Research</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header shell">
+  <a class="brand" href="index.html"><span>MEDHIRA</span><small>RESEARCH</small></a>
+  <nav aria-label="Roadmap navigation"><a href="index.html">Home</a><a href="#roadmaps">Roadmaps</a><a href="community/START_HERE.md">Start Here</a></nav>
+</header>
+<main>
+<section id="roadmaps" class="section shell">
+  <p class="kicker">LEARNING ROADMAPS</p>
+  <h1>Pick a direction.<br><em>Take one step.</em></h1>
+  <p class="section-intro">These roadmaps are flexible starting points—not rigid rules. Choose one route, practise consistently, and change direction when you learn more about yourself.</p>
+  <div id="roadmap-list" class="project-grid"><p class="muted-text">Loading roadmaps…</p></div>
+</section>
+</main>
+<footer class="site-footer shell"><span>Medhira Research · A. Sai Shivanand</span><span>Learn. Build. Connect.</span></footer>
+<script>
+const esc=v=>String(v??'').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));
+fetch('data/roadmaps.json').then(r=>r.json()).then(items=>{document.querySelector('#roadmap-list').innerHTML=items.map((r,i)=>`<article class="project-card"><span class="card-index">${String(i+1).padStart(2,'0')}</span><h2>${esc(r.title)}</h2><p>${esc(r.description)}</p><small>${esc(r.audience)} · ${esc(r.duration)}</small><details><summary>View roadmap</summary><ol>${r.steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol><p><strong>First task:</strong> ${esc(r.first_task)}</p></details></article>`).join('')}).catch(()=>document.querySelector('#roadmap-list').innerHTML='<p class="muted-text">Roadmaps unavailable right now.</p>');
+</script>
+</body>
+</html>
