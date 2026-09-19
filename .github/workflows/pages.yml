@@ -1,8 +1,10 @@
-name: Deploy Medhira Research to GitHub Pages
+name: Build and deploy Medhira Research
 
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '17 3 * * *'
   workflow_dispatch:
 
 permissions:
@@ -21,8 +23,20 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Refresh public GitHub project feed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p website/data
+          curl --fail --silent --show-error \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            "https://api.github.com/users/asaishivanand-design/repos?per_page=100&sort=updated" \
+            | jq '[.[] | select(.name != "medhira-research") | {name, description, language, html_url, fork}]' \
+            > website/data/projects.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
