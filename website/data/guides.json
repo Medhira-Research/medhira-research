@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Starting with a computer",
+    "level": "Absolute beginner",
+    "description": "A friendly path through files, folders, browsers, typing, downloads, safety, and basic computer confidence.",
+    "steps": ["Learn files and folders", "Understand browsers and search", "Practice typing and shortcuts", "Learn basic digital safety"]
+  },
+  {
+    "title": "What is GitHub?",
+    "level": "Beginner",
+    "description": "Understand repositories, commits, branches, issues, README files, and how GitHub helps you show your work.",
+    "steps": ["Create a GitHub account", "Read and run a README", "Make your first repository", "Learn commit and push basics"]
+  },
+  {
+    "title": "Choosing a tech direction",
+    "level": "Beginner",
+    "description": "Compare web development, backend, AI/ML, cybersecurity, cloud, data, app development, and open source before choosing a path.",
+    "steps": ["Explore different fields", "Choose one primary direction", "Learn the foundations", "Build small practice projects"]
+  },
+  {
+    "title": "Linux and the terminal",
+    "level": "Beginner",
+    "description": "Start using Linux confidently with commands, directories, permissions, package managers, and simple shell workflows.",
+    "steps": ["Learn pwd, ls, cd and mkdir", "Create and edit text files", "Understand permissions", "Use a package manager safely"]
+  },
+  {
+    "title": "Coding foundations",
+    "level": "Beginner",
+    "description": "Learn variables, conditions, loops, functions, debugging, problem solving, and how to practise consistently.",
+    "steps": ["Choose one beginner-friendly language", "Solve tiny problems", "Read error messages", "Document what you learned"]
+  },
+  {
+    "title": "Open source and collaboration",
+    "level": "Beginner",
+    "description": "Learn how to find projects, communicate respectfully, open issues, make small contributions, and work with peers and seniors.",
+    "steps": ["Read contribution guidelines", "Find beginner-friendly issues", "Make a small documentation change", "Open a pull request"]
+  },
+  {
+    "title": "Research basics",
+    "level": "Beginner",
+    "description": "Understand research questions, literature reviews, reproducibility, citations, experiments, and responsible claims.",
+    "steps": ["Learn how to read a paper", "Write a small research question", "Record experiment details", "Separate evidence from assumptions"]
+  },
+  {
+    "title": "Building your first portfolio",
+    "level": "Beginner",
+    "description": "Turn learning into evidence with small projects, clear READMEs, screenshots, lessons learned, and honest progress updates.",
+    "steps": ["Build one small useful thing", "Add a clear README", "Publish your code", "Write what you learned"]
+  }
+]
