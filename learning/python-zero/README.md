@@ -33,9 +33,9 @@ On Windows PowerShell, activate with `.venv\\Scripts\\Activate.ps1`.
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 00 | Setup, terminal, running your first Python file | Start here |
-| 01 | print, comments, variables and basic types | Next |
-| 02 | Input, type conversion and operators | Planned |
+| 00 | Setup, terminal, running your first Python file | Completed in guided session |
+| 01 | print, comments, variables and basic types | In progress — complete the profile exercise and `type()` checks |
+| 02 | Input, type conversion and operators | Next session |
 | 03 | Conditions | Planned |
 | 04 | Loops | Planned |
 | 05 | Strings and collections | Planned |
