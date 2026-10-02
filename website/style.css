@@ -45,3 +45,47 @@ a:hover{transform:translateY(-2px)}
 @keyframes twinkle{0%,100%{opacity:.65;transform:scale(.9) rotate(0)}50%{opacity:1;transform:scale(1.12) rotate(12deg)}}
 @media(max-width:800px){.site-header{position:relative}.hero{padding-top:55px}.sticker-star{right:7%;top:7%}.sticker-cat{display:none}.sticker-spark{left:auto;right:8%;bottom:8%}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+
+/* MEDHIRA // AFTER DARK — rough comic-book / garage-lab identity */
+:root{--ink:#e9e7e2;--muted:#a6a29a;--line:#34332f;--paper:#111210;--soft:#191a17;--accent:#d7ff32;--accent-soft:#30391a;--lav:#858585;--mint:#d7ff32;--yellow:#f0f0e9;--blue:#777}
+html{background:#111210}
+body{color:#e9e7e2;background-color:#111210;background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:32px 32px;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{transition:color .15s ease,transform .15s ease}a:hover{color:#d7ff32;transform:translateY(-2px)}
+.site-header{position:sticky;top:0;z-index:20;background:rgba(17,18,16,.94);backdrop-filter:blur(12px);border-bottom:1px solid #45453e;box-shadow:0 5px 0 #d7ff32}
+.brand{color:#f4f2eb;letter-spacing:.14em}.brand span{color:#d7ff32}.brand small{color:#aaa69c}
+.site-header nav a{color:#c3c0b8;font-weight:800;text-transform:uppercase;font-size:.76rem;letter-spacing:.08em}.site-header nav a:hover{color:#d7ff32}
+.hero{position:relative;min-height:82vh;padding-top:100px;padding-bottom:110px;overflow:hidden}
+.hero:before{content:"";position:absolute;right:4%;top:15%;width:300px;height:300px;border:2px solid #d7ff32;border-radius:50%;opacity:.14;box-shadow:0 0 0 22px #d7ff3210,0 0 0 48px #d7ff3209}
+.hero h1{font-size:clamp(3.8rem,9vw,8.8rem);line-height:.86;letter-spacing:-.09em;text-transform:uppercase;color:#f1efe8;text-shadow:5px 5px 0 #34362c,9px 9px 0 #d7ff32}
+.hero h1 em{color:#d7ff32;font-style:normal;text-shadow:4px 4px 0 #454b28}
+.kicker,.tag{color:#d7ff32;text-transform:uppercase;letter-spacing:.2em;font-weight:950}
+.hero-text{color:#bbb7ad;font-size:1.08rem;max-width:660px}
+.button{border:1px solid #626257;border-radius:3px;background:#20211d;color:#f0eee7;font-weight:950;text-transform:uppercase;letter-spacing:.06em;box-shadow:4px 4px 0 #050505}
+.button.primary{background:#d7ff32;border-color:#d7ff32;color:#151610;box-shadow:5px 5px 0 #707c31}
+.button:active{transform:translate(3px,3px);box-shadow:1px 1px 0 #050505}
+.hero-note{position:relative;overflow:hidden;border:2px solid #d7ff32;border-radius:3px;background:linear-gradient(145deg,#22231f,#141512);box-shadow:9px 9px 0 #050505;padding:30px}
+.hero-note:after{content:"CLASSIFIED // EXPERIMENT LOG";position:absolute;right:12px;bottom:12px;color:#d7ff32;font-size:.58rem;font-weight:950;letter-spacing:.14em}
+.status-dot{background:#d7ff32;box-shadow:0 0 0 5px #d7ff3222}
+.section{border-top:1px solid #4a4a40}
+.section h2{color:#f0eee7;text-transform:uppercase;letter-spacing:-.055em}
+.section-intro{color:#b2aea4}
+.tinted,.tint{background:linear-gradient(130deg,#191a17,#121310 65%,#202218);border-top:1px solid #d7ff32;border-bottom:1px solid #34362d}
+.research-grid article,.project-card,.person-card,.dump-card{border:1px solid #55564a;border-radius:3px;background:linear-gradient(145deg,#22231f,#171814);box-shadow:6px 6px 0 #050505;transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}
+.research-grid article:hover,.project-card:hover,.person-card:hover,.dump-card:hover{transform:translate(-3px,-3px) rotate(-.3deg);border-color:#d7ff32;box-shadow:10px 10px 0 #050505}
+.research-grid article:nth-child(3n+1){border-top:4px solid #d7ff32}.research-grid article:nth-child(3n+2){border-top:4px solid #898b7b}.research-grid article:nth-child(3n){border-top:4px solid #d7ff32}
+.research-grid article>span,.project-card .card-index{display:inline-grid;place-items:center;min-width:34px;height:30px;padding:0 8px;border:1px solid #d7ff32;border-radius:2px;background:#20251a;color:#d7ff32;font-weight:950}
+.research-note{border:1px solid #77776b;border-left:5px solid #d7ff32;border-radius:2px;background:#1b1c18;padding:22px;box-shadow:5px 5px 0 #080907}
+.research-note strong{color:#d7ff32}.research-note a{color:inherit}
+.person-card{background:linear-gradient(120deg,#22231f,#171814)}.avatar{border-radius:2px;background:#d7ff32;color:#151610;box-shadow:4px 4px 0 #050505}
+.person-links a,.text-link{color:#d7ff32}
+.collaboration{border:1px solid #d7ff32;border-radius:3px;padding:clamp(25px,5vw,60px);background:linear-gradient(130deg,#24261e,#151612);box-shadow:9px 9px 0 #050505}
+.site-footer{border-top:1px solid #45453e;color:#aaa69c}
+.sticker{position:absolute;z-index:2;pointer-events:none;user-select:none;font-weight:1000}.sticker-star{top:12%;right:34%;font-size:4rem;color:#d7ff32;transform:rotate(12deg);text-shadow:4px 4px 0 #34362c}.sticker-cat{top:10%;right:3%;font-size:.7rem;color:#d7ff32;background:#171814;border:1px solid #d7ff32;border-radius:2px;padding:12px 14px;box-shadow:4px 4px 0 #050505;transform:rotate(3deg);letter-spacing:.12em}.sticker-spark{bottom:15%;left:42%;font-size:2.8rem;color:#e9e7e2}
+.mascot{display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto 22px;transform:rotate(-3deg)}.mascot-face{display:grid;place-items:center;width:142px;height:90px;border-radius:2px;background:#d7ff32;border:3px solid #111;color:#111;box-shadow:7px 7px 0 #050505;font-size:2.4rem;font-weight:1000;clip-path:polygon(0 0,100% 0,100% 78%,78% 100%,0 100%)}.mascot-caption{font-size:.62rem;font-weight:1000;letter-spacing:.2em;text-transform:uppercase;color:#d7ff32;margin-top:12px}
+.heading-doodle{color:#d7ff32;font-size:.75em;display:inline-block;transform:rotate(12deg)}
+.project-card details{margin-top:15px;color:#b2aea4}.project-card summary{cursor:pointer;font-weight:900;color:#d7ff32}.project-card ul{padding-left:20px}
+.fine-print{color:#98958c}.dump-hero{border-bottom:1px solid #45453e}
+@keyframes floaty{0%,100%{transform:translateY(0) rotate(12deg)}50%{transform:translateY(-7px) rotate(18deg)}}
+@media(max-width:800px){.site-header{position:relative}.hero{padding-top:65px}.sticker-star{right:8%;top:6%}.sticker-cat{display:none}.sticker-spark{left:auto;right:8%;bottom:8%}.hero h1{text-shadow:3px 3px 0 #34362c,6px 6px 0 #d7ff32}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
