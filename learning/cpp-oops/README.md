@@ -20,8 +20,8 @@ Build a strong foundation in C++ and OOP for semester coursework, problem solvin
 
 | Stage | Topic | Status |
 |---|---|---|
-| 00 | C++ setup, compiler, first program | Starting |
-| 01 | Variables, data types, input/output and operators | Planned |
+| 00 | C++ setup, compiler, first program | Completed |
+| 01 | Variables, data types, input/output and operators | Next |
 | 02 | Conditions and loops | Planned |
 | 03 | Functions and parameter passing | Planned |
 | 04 | Arrays, strings and basic problem solving | Planned |
@@ -54,4 +54,27 @@ This track is being maintained alongside the user's C++ with OOP coursework duri
 
 ## Progress
 
-**Current status:** Track created — first lesson not started yet.
+**Current status:** Day 1 completed.
+
+### Day 1 — First C++ program
+
+Created and successfully compiled and ran `day1/hello.cpp`.
+
+Practised:
+- `#include <iostream>`
+- `int main()`
+- `std::cout`
+- `std::endl`
+- `return 0`
+- Compiling with `g++`
+- Running the generated executable
+- Reading and fixing compiler errors
+
+The first attempt contained syntax mistakes around `std::endl`; these were corrected before the final successful run.
+
+**Output:**
+```
+Hello, Shivanand!
+I am learning C++.
+Medhira Research Day 1.
+```
